@@ -28,7 +28,7 @@ class _CounterHomePageState extends State<CounterHomePage> {
 
   _assignPages() {
     setState(() {
-      pages = [CounterPage(key1), CounterPage(key2), CounterPage(key3)];
+      pages = [CounterPage(key1,'page1'), CounterPage(key2,'page2'), CounterPage(key3,'page3'),];
     });
   }
 
