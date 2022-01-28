@@ -1,8 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_database/firebase_database.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'CustomDatabase.dart';
+import 'CounterHomePage.dart';
+
 
 
 
@@ -32,7 +31,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const CustomDatabase(),
+      home: const CounterHomePage(),
     );
   }
 }
